@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
+
+body {
+  margin: 0;
+  font-family: parkinsans !important;
+  background-color: #0B192C !important;
+  color: #fff;
+}
+.menus{
+  width: 100%;
+  justify-content: end;
+  gap: 15px;
+}
+.nav{
+  color: #CC2B52;
+}
+.nav:focus{
+  color: #fff !important;
+}
+.nav:hover{
+  color: #fff !important;
+}
+.card:hover{
+  box-shadow: 0 0 10px grey;
+ padding: 10px;
+  cursor: pointer;
+  transition: 0.3s linear;
+  background-color: black !important; 
+  background: blurred !important;
+}
+.btn1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+ 
